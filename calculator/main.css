@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@300&family=Source+Sans+Pro:wght@600&family=Tilt+Neon&family=Ubuntu:wght@500&display=swap');
+
+body{
+    background-color: #17171C;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.con
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #17171C;
+
+    /* height: 300px;
+    width: 500px; */
+}
+.con1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  
+    height: 100vh   ;
+}
+#display
+{
+    height:100px;
+    width: 200px;
+    text-align: right;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button
+{
+    display: grid;
+  /* row-gap: 5px; */
+  gap: 15px;
+  grid-template-columns: auto auto auto auto;
+}
+.item
+{
+    background-color: #4B5EFC;
+    height: 50px;
+    width: 50px;
+    box-shadow:  0 0 7px #4B5EFC;
+    border-radius: 25px;
+    border: none;
+}
